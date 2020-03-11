@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: lightskyblue;
+    box-shadow: 0 0 10px  #0000001f;
+}
+nav{}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #d42d21;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+nav ul li a img{
+    width: 100px;
+}
+
+
+.formsection{
+    padding: 70px 0;
+    background-image: url(../images/miti.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #9c27b059;
+    background-blend-mode: soft-light;
+}
+.form-box{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 35px;
+    color: #5800f5;
+}
+p{
+    font-size: 18px;
+}
+
+form{
+    text-align: left;
+    margin-top: 30px;
+}
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="file"]
+{
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #22d0ffc2;
+    margin-bottom: 15px;
+    color: #22d0ffc2;
+    font-size: 18px;
+}
+input[type="file"]{
+    margin-bottom: 0;
+
+}
+label{
+    font-size: 22px;
+    font-style: italic;
+    margin-right: 20px;
+}
+span{
+    display: block;
+    font-style: italic;
+    font-style: 14px;
+
+}
+
+
+b label{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+
+}
+
+input[type="submit"]{
+    display: block;
+    padding: 10px 30px;
+    font-size: 18px;
+    background: #03a9f49c;
+    border: 2px solid #03a9f49c;
+    margin-top: 25px;
+    cursor: progress;
+}
+input[type="submit"]:hover{
+    background: transparent;
+
+}
